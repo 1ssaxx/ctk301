@@ -1,0 +1,52 @@
+h1 {
+    color: tan;
+    background-color: #001df5;
+}
+.ctk {
+    color: #0000ff;
+  }
+
+a:link {
+  color: #ff0000;
+}
+
+a:visited {
+  color: #00c42b;
+}
+
+a:active {
+  color: #00ffff;
+}
+
+a:hover {
+  color: #ffff00;
+} 
+
+a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  h2 {
+    background-color: #001df5;
+    color: tan;
+}
+h3 {
+    background-color: tan;
+    color: #001df5;
+}
+
+h4 {
+    background-color: tan;
+    color: #001df5;
+}
+#major {
+    background-color: black;
+    color: tan;
+
+  }
+
+  
