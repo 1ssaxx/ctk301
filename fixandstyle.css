@@ -1,0 +1,52 @@
+a:link {
+    color: #ff0000;
+  }
+  
+  a:visited {
+    color: #00c42b;
+  } 
+
+  a:hover {
+    color: #ff0000;
+  } 
+  
+  a {
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+        color: rgb(255, 255, 255);
+    }
+    #Poison {
+        background-color: lightblue;
+        color: black;
+    
+      }
+      h2 {
+        color: blue;
+    }
+    .doc {
+        color: orange;
+      }
+      h3 {
+        background-color: yellow;
+    }
+    #pthree {
+        color: red;
+    }
+    h4 {
+        color: yellow;
+        background-color: forestgreen;
+    }
+    #pfour {
+        background-color: lightgreen;
+    }
+    h5 {
+        color: red;
+    }
+    #five {
+        background-color: yellow;
+    }
