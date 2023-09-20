@@ -1,0 +1,74 @@
+h1 {
+  color: rgb(255, 145, 0);
+    background-color: #001df5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.ctk {
+    color: #0000ff;
+  }
+
+a:link {
+  color: #ff0000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited {
+  color: #00c42b;
+}
+
+a:active {
+  color: #00ffff;
+}
+
+a:hover {
+  color: #ffff00;
+} 
+
+a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  h2 {
+    background-color: #001df5;
+    color: rgb(255, 145, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+h3 {
+    background-color: tan;
+    color: rgb(255, 145, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+h4 {
+    background-color: tan;
+    color: rgb(255, 145, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+#major {
+    background-color: black;
+    color: tan;
+    font: 14px Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+  }
+  .fontcombined {
+    font: 14px Arial, Helvetica, sans-serif;
+    
+}
+.imgbox {
+  border: 20px solid black;
+  padding: 40px;
+  background-color: yellow;
+  
+} body {
+  background-image: url(xp.jpg);
+}      
