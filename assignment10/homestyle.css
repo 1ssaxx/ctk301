@@ -1,0 +1,113 @@
+body {
+  background-color: lightblue;
+}
+header {
+  grid-column: span 12;
+}
+main {
+  grid-column: span 10;
+}
+nav {
+  grid-column: span 2;
+}
+
+footer {
+  grid-column: span 12;
+  padding-top: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-small;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+padding: 0;
+
+} 
+
+nav li {
+  display: inline-block;
+  padding: 0;
+  margin: 0px;
+  width: 200px;
+  height: 85px;
+  color: #ffffff; 
+}
+
+nav li a {
+  color:  rgb(0, 0, 0);
+  display: block;
+  height: 40px;
+  border: 1px solid white;
+  padding-top: 20px;
+  background-color: #0066ff;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(15, 187, 255));
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: gray;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+#soundcloud {
+  float: left;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.sc {
+  font-family: Arial, Helvetica, sans-serif;
+
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+#youtube {
+  float: left;
+  clear: both;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.yt {
+font-family: Arial, Helvetica, sans-serif;
+
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.p1 {
+font-family: Arial, Helvetica, sans-serif;
+
+padding-left: 20px;
+margin-top: 0px;
+
+}
+
+main img {
+  float: left;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.homeimg {
+  padding-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header img {
+
+  padding-bottom: 20px;
+}
