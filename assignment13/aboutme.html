@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Issac Shores Portfolio</title>
+    <style>
+      @import url(https://use.typekit.net/xbt5nnd.css);
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <link href="aboutme.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <a href="home.html"
+          ><img src="header.png" alt="Social Media Links"
+        /></a>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="Music.html">Music</a></li>
+          <li><a href="production.html">Production</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+        </ul>
+      </nav>
+      <main>
+        <img src="me.png" alt="photo of Issac" />
+
+        <h1>Issac Shores</h1>
+        <p class="homeimg">
+          Issac is a music producer and artist based in South Chicagoland. His
+          musical journey so far is a testament to his dedication and passion
+          for the art. Blending diverse musical elements, Issac’s productions
+          stand out for their originality and depth, a distinct style that draws
+          inspiration from his surroundings. His commitment to his craft and his
+          relentless pursuit of musical excellence are what set Isaac apart in
+          the landscape of music production.
+        </p>
+
+        <script>
+          window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
+          formbutton("create", {
+             action: "https://formspree.io/f/xbjvvyrl",
+            title: "Contact Me",
+            fields: [
+              {
+                type: "email",
+                label: "Email:",
+                name: "email",
+                required: true,
+                placeholder: "your@email.com"
+              },
+              {
+                type: "textarea",
+                label: "Message:",
+                name: "message",
+                placeholder: "Your Message",
+              },
+              { type: "submit" }
+            ],
+            styles: {
+              title: {
+                backgroundColor: "gray"
+              },
+              button: {
+                backgroundColor: "gray"
+              }
+            },
+            initiallyVisible: true
+          });
+        </script>
+      </main>
+      <footer>
+        Owned and Operated by Issac Shores - Contact - ibshore@ilstu.edu
+        <a
+          href="https://instagram.com/issacshores"
+          target="_blank"
+          class="bi bi-instagram"
+        ></a>
+        <a
+          href="https://twitter.com/bungiehelp"
+          target="_blank"
+          class="bi bi-twitter"
+        ></a>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -33,7 +33,9 @@ nav ul {
 padding: 0;
 
 } 
-
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
 nav li {
   display: inline-block;
   padding: 0;
@@ -78,43 +80,6 @@ nav a:hover {
   grid-column-gap: 24px;
 }
 
-#soundcloud {
-  float: left;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 10px;
-  
-}
-
-.sc {
-  font-family: Arial, Helvetica, sans-serif;
-padding-top: 100px;
-padding-bottom: 100px;
-}
-
-#youtube {
-  float: left;
-  clear: both;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 0px;
-}
-
-.yt {
-font-family: Arial, Helvetica, sans-serif;
-
-padding-top: 100px;
-padding-bottom: 100px;
-}
-
-.p1 {
-font-family: Arial, Helvetica, sans-serif;
-
-padding-left: 20px;
-margin-top: 0px;
-padding-top: 10px;
-
-}
 
 main img {
   float: left;
@@ -123,9 +88,8 @@ main img {
 }
 
 .homeimg {
-  padding-top: 100px;
+  padding-top: 25px;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 header img {
@@ -133,31 +97,4 @@ border: 1px solid black;
 margin-bottom: 20px;
 border-radius: 20px;
 box-shadow: 5px 5px 5px rgb(15, 187, 255);
-}
-
-figure {
-  position: relative;
-  width: 450px; 
-  margin-left: 0px;
-}
-
-figcaption {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: white;
-  font-family: "neuropol-x-light", sans-serif;
-  font-size: 2em;
-  text-align: center;
-  text-shadow: 1px 1px 1px black;
-  opacity: 0;
-  transition: .5s opacity; 
-  padding-left: 20px;
-  margin-left: 0px;
-  margin-top: 100px;
-}
-
-figure:hover figcaption{
-  opacity: 1; 
 }

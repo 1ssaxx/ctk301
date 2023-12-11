@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Issac Shores - Videos</title>
+    <style>
+      @import url(https://use.typekit.net/xbt5nnd.css);
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+    />
+    <link href="videos.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <a href="home.html"
+          ><img src="header.png" alt="Social media links"
+        /></a>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="Music.html">Music</a></li>
+          <li><a href="production.html">Production</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+        </ul>
+      </nav>
+      <main>
+        <div id="myCarousel" class="f-carousel">
+          <div class="f-carousel__slide">
+            <iframe
+              width="980"
+              height="450"
+              src="https://www.youtube.com/embed/pkFbKEYXjKE?si=n0FNPvv_GqyV2uWy"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="f-carousel__slide">
+            <iframe
+              width="980"
+              height="450"
+              src="https://www.youtube.com/embed/z0h8Ii1BE4g?si=GPFLX8hKtBlxLtDK"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="f-carousel__slide">
+            <iframe
+              width="980"
+              height="450"
+              src="https://www.youtube.com/embed/3U7ri95lsDk?si=Fw_syFz5pgM1Z4Fv"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <p class="yt">
+          Issac started producing in early 2022, taking inspiration from
+          producers like Pharell, Benjicold, Mally Raw, and more. While he
+          started making beats as a hobby, and didn't take it too seriously, its
+          now one of his favorite things to do and allows him to wrok with
+          several other artists and spread his work further than ever before.
+          This first video is a recent beat made in October 2023. It combines
+          many different sounds from synths to flutes with some hard hitting and
+          unique drums to make a different kind of sound. It features one of the
+          key element in issac's beats, a unique accent bass sound in the
+          bassline. He also likes to use any other kinds of unorthodox sounds
+          for the bass line in songs. The second is a beat made in mid 2022,
+          helping us see the progression over these 2 years of producing. It
+          features some bells and a distinct lead throughout the song. The final
+          track is from early 2022, featuring the first beat ever produced by
+          Issac, a significant step in his musical journey. while its nothing
+          special now, the simplicity of his initial beat can still be
+          appreciated. This song is a important point in Issac's growth as an
+          artist since his first foray into music production.
+          <script>
+            window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
+            formbutton("create", {
+              action: "https://formspree.io/f/xbjvvyrl",
+              title: "Contact Me",
+              fields: [
+                {
+                  type: "email",
+                  label: "Email:",
+                  name: "email",
+                  required: true,
+                  placeholder: "your@email.com"
+                },
+                {
+                  type: "textarea",
+                  label: "Message:",
+                  name: "message",
+                  placeholder: "Your Message",
+                },
+                { type: "submit" }
+              ],
+              styles: {
+                title: {
+                  backgroundColor: "gray"
+                },
+                button: {
+                  backgroundColor: "gray"
+                }
+              },
+              initiallyVisible: false
+            });
+          </script>
+        </p>
+      </main>
+
+      <footer>
+        Owned and Operated by Issac Shores - Contact - ibshore@ilstu.edu
+        <a
+          href="https://instagram.com/issacshores"
+          target="_blank"
+          class="bi bi-instagram"
+        ></a>
+        <a
+          href="https://twitter.com/bungiehelp"
+          target="_blank"
+          class="bi bi-twitter"
+        ></a>
+      </footer>
+    </div>
+    <script>
+      const container = document.getElementById("myCarousel");
+      const options = { infinite: false };
+      new Carousel(container, options);
+    </script>
+  </body>
+</html>
